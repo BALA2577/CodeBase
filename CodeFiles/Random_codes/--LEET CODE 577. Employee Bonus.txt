@@ -1,0 +1,4 @@
+--577. Employee Bonus
+select a.name ,b.bonus  from employee a left join bonus b on  a.empid = b.empid where b.bonus < 1000 or b.bonus is NULL;
+ 
+ --Learned left join today same as our normal join instead of comma use the left join key and the primary key id should be matched with 'ON' instead of where 
